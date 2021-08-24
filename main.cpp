@@ -311,7 +311,7 @@ void retrieveInfo (Patient patientList[], int &patientcount){
 void save (Patient patientList[], int &patientcount){
     
     ofstream countsave;
-    countsave.open("/Users/adrimohamad/Downloads/Sem 1/CSCI 1300/Group Project/Test Clinic 2/Test Clinic 2/patientCount.txt");
+    countsave.open("/Users/adrimohamad/Downloads/Sem 1/CSCI 1300/Group Project/Test Clinic 2/Test Clinic 2/patientCount.txt");  //put your file directory here
     countsave << patientcount;
     countsave.close();
     
