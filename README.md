@@ -1,7 +1,8 @@
 # Hospital-Registration-System
 A registration system for a hospital or clinic.
 
-
+**List of Functions**
+---
 Patient = Structure containing name, age, sex, telNo, symptoms, diagnosis, medicine, bloodGroup and emergency
 
 name[FNAME][2] = Stores array of name; 1st column is for first name, 2nd column for last name 
